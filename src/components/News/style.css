@@ -1,0 +1,23 @@
+.news {
+    height: 100px;
+    margin : 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre h1 {
+    margin : 0;
+    color:rgba(0, 0, 0, 0.8);
+    font-family: 'Exo', sans-serif;
+}
+.newsArticles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
