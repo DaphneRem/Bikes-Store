@@ -17,6 +17,7 @@
     font-family: 'Exo', sans-serif;
 }
 .newsArticles {
+    margin : 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
