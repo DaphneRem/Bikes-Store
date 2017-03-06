@@ -41,7 +41,7 @@ export default class News extends Component {
       <div className={classnames('News', className)} {...props}>
         <div className="row news">
             <div className="titre col-lg-12">
-                <h1>Nouveautés</h1>
+                <h1 id="news">Nouveautés</h1>
             </div>
         </div>
         <div className="row">

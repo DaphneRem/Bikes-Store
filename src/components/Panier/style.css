@@ -1,0 +1,14 @@
+.monPanier h1 {
+    height: 300px;
+    width: 100px;
+    background-color: red;
+}
+.imgPanier {
+    height: 60px;
+    width: 60px;
+}
+.modal {
+    position : absolute;
+    /*top : 30%;
+    left : 70%;*/
+}

@@ -1,6 +1,7 @@
 import React, { PropTypes, Component } from 'react';
 import classnames from 'classnames';
 import { Parallax } from 'react-parallax';
+import Panier from '../Panier/Panier';
 import News from '../News/News';
 
 import './style.css';
@@ -13,7 +14,7 @@ class App extends Component {
   render() {
 
     const { className, ...props } = this.props;
-    
+
 
     return (
       <div className={classnames('App', className)} {...props}>
@@ -27,10 +28,11 @@ class App extends Component {
                             <div className="menu col-lg-6">
                                 <ul>
                                     <li><a href="#">Menu</a></li>
-                                    <li><a href="#">Nouveautés</a></li>
+                                    <li><a href="#news">Nouveautés</a></li>
                                     <li><a href="#">Galerie</a></li>
-                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">About us</a></li>
                                     <li><a href="#">Contact</a></li>
+                                    <li><Panier/></li>
                                 </ul>
                             </div>
                         </div>
